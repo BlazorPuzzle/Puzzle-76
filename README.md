@@ -3,7 +3,8 @@
 We received an email this week from a member of our Blazor community that's having some problems configuring a blazer application with different configuration settings that they they need to change between different environments.
 
 ```
-My customer has two different environments (both in production AND development) that require two sets of .json files for configuration.
+My customer has two different environments (both in production AND development)
+that require two sets of .json files for configuration.
 
 Right now they are swapping file names in order to pick the environment. 
 
