@@ -1,0 +1,6 @@
+@using Microsoft.AspNetCore.Hosting
+@inject IWebHostEnvironment Environment
+
+<div class="corner-ribbon @($"corner-ribbon-{Environment.EnvironmentName.ToLower()}")">
+    @Environment.EnvironmentName
+</div>

@@ -45,7 +45,7 @@ else
     {
 
 				// if Configuration AllowWeather is not set to true, redirect to home page
-				if (!bool.Parse(Configuration["AllowWeather"] ?? "false"))
+				if (!bool.Parse(Configuration["AllowWeather"]  ?? "false"))
 				{	
 						NavigationManager.NavigateTo("/");
 						return;
