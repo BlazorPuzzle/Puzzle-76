@@ -2,7 +2,7 @@
 
 Jeff and Carl want to know how to change up the environment configuration without swapping .json config files.
 
-YouTube Video: https://youtu.be/
+YouTube Video: https://youtu.be/xxF8SkkTk1E
 
 Blazor Puzzle Home Page: https://blazorpuzzle.com
 
