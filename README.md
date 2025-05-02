@@ -1,4 +1,12 @@
-# Puzzle-76 - Environments for everyone!
+# Puzzle #76 - Environments for Everyone!
+
+Jeff and Carl want to know how to change up the environment configuration without swapping .json config files.
+
+YouTube Video: https://youtu.be/
+
+Blazor Puzzle Home Page: https://blazorpuzzle.com
+
+## The Challenge
 
 We received an email this week from a member of our Blazor community that's having some problems configuring a blazer application with different configuration settings that they they need to change between different environments.
 

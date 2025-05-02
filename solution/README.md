@@ -1,9 +1,18 @@
-# Puzzle-76 - Environments for everyone!
+# Puzzle #76 - Environments for Everyone!
+
+Jeff and Carl want to know how to change up the environment configuration without swapping .json config files.
+
+YouTube Video: https://youtu.be/
+
+Blazor Puzzle Home Page: https://blazorpuzzle.com
+
+## The Challenge
 
 We received an email this week from a member of our Blazor community that's having some problems configuring a blazer application with different configuration settings that they they need to change between different environments.
 
 ```
-My customer has two different environments (both in production AND development) that require two sets of .json files for configuration.
+My customer has two different environments (both in production AND development)
+that require two sets of .json files for configuration.
 
 Right now they are swapping file names in order to pick the environment. 
 
@@ -22,7 +31,7 @@ To complete a demo that emulates the scenario, we've added a file **Production.a
 
 How can the developers for this project work with these two configurations without having to play filename-rename-roulette?
 
-## Solution:
+## The Solution
 
 ASP.NET Core has a rich configuration system that allows you to swap configurations based on the name of the environment.  By default, a machine with the .NET SDK installed and a **Properties/launchSettings.json** file has a directive to set the **ASPNETCORE_ENVIRONMENT** environment variable to **Development** when the application launches.
 
